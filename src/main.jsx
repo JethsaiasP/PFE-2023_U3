@@ -7,6 +7,8 @@ import {
 }from"react-router-dom"
 import './index.css'
 import Ciudad_de_Sol from './Components/Ciudad_de_Sol.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Tareas from './Components/Tareas/Tareas.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,10 @@ const router = createBrowserRouter([
   {
     path:"/Ciudad",
     element:<Ciudad_de_Sol />
+  },
+  {
+    path:"/tareas",
+    element:<Tareas />
   }
 ])
 
