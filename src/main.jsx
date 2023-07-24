@@ -5,10 +5,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 }from"react-router-dom"
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 import Ciudad_de_Sol from './Components/Ciudad_de_Sol.jsx'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Tareas from './Components/Tareas/Tareas.jsx'
+import Tareas from './Components/Tareas/Tareas'
 
 const router = createBrowserRouter([
   {
